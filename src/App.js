@@ -1,11 +1,12 @@
 import './App.css';
-import KonvaImageDemo from './Components/Konva-canvas/konva-canvas';
+// import BaseCanvas from './Konva-canvas/konva-canvas';
+import BaseLayer from './Components/BaseLayer';
 
 function App() {
   return (
     <div className="App">
-      {/* <KonvaCanvas></KonvaCanvas> */}
-      <KonvaImageDemo></KonvaImageDemo>
+      {/* <BaseCanvas></BaseCanvas> */}
+      <BaseLayer></BaseLayer>
     </div>
   );
 }
