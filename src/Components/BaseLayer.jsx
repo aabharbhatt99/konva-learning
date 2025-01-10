@@ -3,7 +3,7 @@ import Konva from "konva";
 // import cityPalaceImage from "../Assets/city-palace.jpeg";
 // import PottyLayer from "./Potty-Layer/PottyLayer";
 import UserLocationLayer from "./User-Location-Layer/UserLocationLayer";
-import homeImage from "../Assets/homeImage.png";
+import homeImage from "../Assets/ab.png";
 
 const BaseLayer = () => {
   const [stage, setStage] = useState(null);

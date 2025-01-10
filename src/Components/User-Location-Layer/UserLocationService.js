@@ -24,12 +24,13 @@ export function getUserPixelCoordinatesInsidePolygon(
   // Check if the user's location is inside the polygon
   const isInside = isPointInPolygon(userGeoLocation, locationGeoCoordinates);
 
-  if (!isInside) {
-    alert("User is outside the defined area!");
-    throw new Error("User is outside the polygon boundary.");
-  } else {
-    console.log("User inside the polygon.");
-  }
+  // if (!isInside) {
+  //   console.log("User is outside the defined area!");
+  //   return { x: 0, y: 0 };
+  //   // throw new Error("User is outside the polygon boundary.");
+  // } else {
+  //   console.log("User inside the polygon.");
+  // }
 
   return calculatePixelCoordinates(
     userGeoLocation,
